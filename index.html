@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PIZZA GOLD - Accueil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/pizza.ico" type="image/x-icon" />
+</head>
+
+<body class=" bg-gray-100 text-white scroll-smooth">
+    <!-- HEADER -->
+    <header class="bg-red-600 text-white py-4 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="flex">
+                <img src="images/pizza.ico" alt="pizza" class="w-7">
+                <div class="text-2xl font-bold ml-2">
+                    PIZZA GOLD
+                </div>
+            </div>
+            <nav class="space-x-6 hidden md:block">
+                <a href="#accueil" class="hover:underline">Accueil</a>
+                <a href="#menu" class="hover:underline">Menu</a>
+                <a href="#apropos" class="hover:underline">À propos</a>
+                <a href="#contact" class="hover:underline">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ACCUEIL -->
+    <section id="accueil" class="text-center py-20 text-white min-h-screen flex items-center flex-col justify-center">
+        <h1 class="text-4xl font-bold">Bienvenue chez Pizza GOLD</h1>
+        <p class="mt-4 text-xl">Des recettes italiennes faites maison, avec amour ❤️</p>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="max-w-4xl mx-auto px-4 mb-16">
+        <div class="text-center py-8">
+            <h1 class="text-3xl font-bold text-white">Liste des Pizzas</h1>
+            <p class="text-gray-100 mt-2">Nos recettes les plus savoureuses vous attendent !</p>
+        </div>
+        <div class="bg-list-pizza shadow rounded-lg p-4">
+            <table class="w-full table-auto text-white">
+                <tbody>
+                    <!-- Pizza Reine -->
+                    <tr class="border-b border-gray-200">
+                        <td class="py-4 font-semibold text-lg">
+                            Pizza Reine
+                            <div class="pb-4 text-sm text-gray-300 italic">Jambon, champignons, mozzarella</div>
+                        </td>
+                        <td class="text-center">........................................................................
+                        </td>
+                        <td class="py-4 text-right font-bold text-green-600">12.00 $
+                            <div class="text-right text-sm text-white font-normal"><s>14.00 $</s></div>
+                        </td>
+                    </tr>
+
+                    <!-- Pizza Margherita -->
+                    <tr class="border-b border-gray-200">
+                        <td class="py-4 font-semibold text-lg">Pizza Margherita
+                            <div class="pb-4 text-sm text-gray-300 italic">Tomates, mozzarella, basilic</div>
+                            <div>
+                                <span
+                                    class="inline-block bg-green-100 text-green-700 text-xs px-2 py-1 rounded-full uppercase">Végétarienne</span>
+                            </div>
+                        </td>
+                        <td class="text-center">........................................................................
+                        </td>
+                        <td class="py-4 text-right font-bold text-green-600">10.00 $
+                            <div class="text-right text-sm text-white font-normal"><s>11.50 $</s></div>
+                        </td>
+                    </tr>
+
+                    <!-- Pizza 4 Fromages -->
+                    <tr class="border-b border-gray-200">
+                        <td class="py-4 font-semibold text-lg">Pizza 4 Fromages
+                            <div class="pb-4 text-sm text-gray-300 italic">Mozzarella, chèvre, bleu, emmental</div>
+                            <div>
+                                <span
+                                    class="inline-block bg-green-100 text-green-700 text-xs px-2 py-1 rounded-full uppercase">Végétarienne</span>
+                            </div>
+                        </td>
+                        <td class="text-center">........................................................................
+                        </td>
+                        <td class="py-4 text-right font-bold text-green-600">13.00 $
+                            <div class="text-right text-sm text-white font-normal"><s>15.00 $</s></div>
+                        </td>
+                    </tr>
+
+                    <!-- Pizza Gourmande -->
+                    <tr class="border-b border-gray-200">
+                        <td class="py-4 font-semibold text-lg">Pizza Gourmande
+                            <div class="pb-4 text-sm text-gray-300 italic">Bacon, oignons, œuf, raclette</div>
+                        </td>
+                        <td class="text-center">........................................................................
+                        </td>
+                        <td class="py-4 text-right font-bold text-green-600">14.50 $
+                            <div class="text-right text-sm text-white font-normal"><s>16.00 $</s></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section id="apropos" class="py-20 flex flex-col items-center min-h-screen justify-center">
+        <div class="max-w-3xl mx-auto text-center px-4">
+            <h2 class="text-3xl font-bold mb-4 text-white">À propos de nous</h2>
+            <p class="text-gray-100 text-lg">
+                Pizza GOLD est une pizzeria artisanale créée par des passionnés de cuisine italienne.
+                Depuis plus de 10 ans, nous préparons chaque jour des pizzas fraîches avec des ingrédients locaux de
+                qualité.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-20 flex flex-col items-center justify-center min-h-screen">
+        <div class="max-w-3xl mx-auto text-center px-4">
+            <h2 class="text-3xl font-bold mb-4 text-white">Contact</h2>
+            <p class="mb-6 text-gray-200">Besoin d’informations ? Contactez-nous :</p>
+            <ul class="text-gray-100">
+                <li>📍 123 Rue de la Pizza, Antananarivo</li>
+                <li>📞 034 12 345 67</li>
+                <li>✉️ contact@pizzagold.mg</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-red-600 text-white text-center py-4">
+        © 2025 Pizza GOLD - Tous droits réservés
+    </footer>
+</body>
+<script>
+    function smoothScrollTo(targetY, duration = 1000) {
+        const startY = window.scrollY;
+        const distance = targetY - startY;
+        let startTime = null;
+
+        function animation(currentTime) {
+            if (!startTime) startTime = currentTime;
+            const timeElapsed = currentTime - startTime;
+            const progress = Math.min(timeElapsed / duration, 1); // 0 à 1
+            const easing = progress < 0.5
+                ? 2 * progress * progress
+                : -1 + (4 - 2 * progress) * progress; // easing in/out
+
+            window.scrollTo(0, startY + distance * easing);
+
+            if (timeElapsed < duration) {
+                requestAnimationFrame(animation);
+            }
+        }
+
+        requestAnimationFrame(animation);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+        link.addEventListener('click', function (e) {
+            const href = this.getAttribute('href');
+            const targetId = href.substring(1);
+            const target = document.getElementById(targetId);
+            if (target) {
+                e.preventDefault();
+                const offset = 60; // hauteur du header
+                const targetRect = target.getBoundingClientRect();
+                const targetPosition = window.scrollY + targetRect.top - (window.innerHeight / 2) + (target.offsetHeight / 2);
+                smoothScrollTo(targetPosition, 1000); // durée en ms (ici 1s)
+            }
+        });
+    });
+</script>
+
+
+</html>

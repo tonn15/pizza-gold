@@ -1,0 +1,9 @@
+div.bg-list-pizza {
+  background-color: #00000061;
+}
+
+body {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("images/bg.webp") no-repeat center center fixed;
+  -webkit-background-size: cover;
+}
